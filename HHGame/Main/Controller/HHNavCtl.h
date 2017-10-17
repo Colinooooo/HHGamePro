@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HHNavCtl.h
 //  HHGame
 //
 //  Created by Colin on 2017/10/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HHNavCtl : UINavigationController
 
 @end
-

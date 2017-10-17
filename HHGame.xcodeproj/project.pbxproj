@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BE484F1F962800001A9CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE484E1F962800001A9CD0 /* AppDelegate.m */; };
-		04BE48521F962800001A9CD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE48511F962800001A9CD0 /* ViewController.m */; };
-		04BE48551F962800001A9CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE48531F962800001A9CD0 /* Main.storyboard */; };
 		04BE48571F962800001A9CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE48561F962800001A9CD0 /* Assets.xcassets */; };
 		04BE485A1F962800001A9CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE48581F962800001A9CD0 /* LaunchScreen.storyboard */; };
 		04BE485D1F962800001A9CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE485C1F962800001A9CD0 /* main.m */; };
 		04BE48671F962800001A9CD0 /* HHGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE48661F962800001A9CD0 /* HHGameTests.m */; };
 		04BE48721F962800001A9CD0 /* HHGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE48711F962800001A9CD0 /* HHGameUITests.m */; };
+		04BE48A01F962AC0001A9CD0 /* HHNavCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE489F1F962AC0001A9CD0 /* HHNavCtl.m */; };
+		04BE48A31F962ADC001A9CD0 /* HHTabBarCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE48A21F962ADC001A9CD0 /* HHTabBarCtl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +35,6 @@
 
 /* Begin PBXFileReference section */
 		04BE484A1F962800001A9CD0 /* HHGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BE484D1F962800001A9CD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04BE484E1F962800001A9CD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04BE48501F962800001A9CD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04BE48511F962800001A9CD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04BE48541F962800001A9CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BE48561F962800001A9CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BE48591F962800001A9CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BE485B1F962800001A9CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +45,12 @@
 		04BE486D1F962800001A9CD0 /* HHGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE48711F962800001A9CD0 /* HHGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHGameUITests.m; sourceTree = "<group>"; };
 		04BE48731F962800001A9CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BE489C1F962A62001A9CD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BE489D1F962A62001A9CD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BE489E1F962AC0001A9CD0 /* HHNavCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavCtl.h; sourceTree = "<group>"; };
+		04BE489F1F962AC0001A9CD0 /* HHNavCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHNavCtl.m; sourceTree = "<group>"; };
+		04BE48A11F962ADC001A9CD0 /* HHTabBarCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTabBarCtl.h; sourceTree = "<group>"; };
+		04BE48A21F962ADC001A9CD0 /* HHTabBarCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTabBarCtl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,13 @@
 		04BE484C1F962800001A9CD0 /* HHGame */ = {
 			isa = PBXGroup;
 			children = (
-				04BE484D1F962800001A9CD0 /* AppDelegate.h */,
-				04BE484E1F962800001A9CD0 /* AppDelegate.m */,
-				04BE48501F962800001A9CD0 /* ViewController.h */,
-				04BE48511F962800001A9CD0 /* ViewController.m */,
-				04BE48531F962800001A9CD0 /* Main.storyboard */,
+				04BE487F1F9629B7001A9CD0 /* Information */,
+				04BE48831F9629BE001A9CD0 /* Guess */,
+				04BE48871F9629C6001A9CD0 /* AroundLe */,
+				04BE488B1F9629CA001A9CD0 /* Found */,
+				04BE488F1F9629D0001A9CD0 /* PersonalCenter */,
+				04BE48931F9629D5001A9CD0 /* Main */,
+				04BE48981F9629D9001A9CD0 /* Tools */,
 				04BE48561F962800001A9CD0 /* Assets.xcassets */,
 				04BE48581F962800001A9CD0 /* LaunchScreen.storyboard */,
 				04BE485B1F962800001A9CD0 /* Info.plist */,
@@ -130,6 +132,237 @@
 				04BE48731F962800001A9CD0 /* Info.plist */,
 			);
 			path = HHGameUITests;
+			sourceTree = "<group>";
+		};
+		04BE487F1F9629B7001A9CD0 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				04BE48801F9629B7001A9CD0 /* Model */,
+				04BE48811F9629B7001A9CD0 /* View */,
+				04BE48821F9629B7001A9CD0 /* ViewController */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		04BE48801F9629B7001A9CD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BE48811F9629B7001A9CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE48821F9629B7001A9CD0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04BE48831F9629BE001A9CD0 /* Guess */ = {
+			isa = PBXGroup;
+			children = (
+				04BE48841F9629BE001A9CD0 /* Model */,
+				04BE48851F9629BE001A9CD0 /* View */,
+				04BE48861F9629BE001A9CD0 /* ViewController */,
+			);
+			path = Guess;
+			sourceTree = "<group>";
+		};
+		04BE48841F9629BE001A9CD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BE48851F9629BE001A9CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE48861F9629BE001A9CD0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04BE48871F9629C6001A9CD0 /* AroundLe */ = {
+			isa = PBXGroup;
+			children = (
+				04BE48881F9629C6001A9CD0 /* Model */,
+				04BE48891F9629C6001A9CD0 /* View */,
+				04BE488A1F9629C6001A9CD0 /* ViewController */,
+			);
+			path = AroundLe;
+			sourceTree = "<group>";
+		};
+		04BE48881F9629C6001A9CD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BE48891F9629C6001A9CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE488A1F9629C6001A9CD0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04BE488B1F9629CA001A9CD0 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				04BE488C1F9629CA001A9CD0 /* Model */,
+				04BE488D1F9629CA001A9CD0 /* View */,
+				04BE488E1F9629CA001A9CD0 /* ViewController */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		04BE488C1F9629CA001A9CD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BE488D1F9629CA001A9CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE488E1F9629CA001A9CD0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04BE488F1F9629D0001A9CD0 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				04BE48901F9629D0001A9CD0 /* Model */,
+				04BE48911F9629D0001A9CD0 /* View */,
+				04BE48921F9629D0001A9CD0 /* ViewController */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		04BE48901F9629D0001A9CD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BE48911F9629D0001A9CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE48921F9629D0001A9CD0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04BE48931F9629D5001A9CD0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04BE48941F9629D5001A9CD0 /* AppDelegate */,
+				04BE48951F9629D5001A9CD0 /* Common */,
+				04BE48961F9629D5001A9CD0 /* Controller */,
+				04BE48971F9629D5001A9CD0 /* MacroDefinition */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04BE48941F9629D5001A9CD0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				04BE489D1F962A62001A9CD0 /* AppDelegate.h */,
+				04BE489C1F962A62001A9CD0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		04BE48951F9629D5001A9CD0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04BE48961F9629D5001A9CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BE489E1F962AC0001A9CD0 /* HHNavCtl.h */,
+				04BE489F1F962AC0001A9CD0 /* HHNavCtl.m */,
+				04BE48A11F962ADC001A9CD0 /* HHTabBarCtl.h */,
+				04BE48A21F962ADC001A9CD0 /* HHTabBarCtl.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BE48971F9629D5001A9CD0 /* MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MacroDefinition;
+			sourceTree = "<group>";
+		};
+		04BE48981F9629D9001A9CD0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04BE48991F9629D9001A9CD0 /* Category */,
+				04BE489A1F9629D9001A9CD0 /* Lib */,
+				04BE489B1F9629D9001A9CD0 /* Tool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04BE48991F9629D9001A9CD0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04BE489A1F9629D9001A9CD0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		04BE489B1F9629D9001A9CD0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +427,7 @@
 		04BE48421F962800001A9CD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HH;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "辉宏工作室";
 				TargetAttributes = {
@@ -240,7 +474,6 @@
 			files = (
 				04BE485A1F962800001A9CD0 /* LaunchScreen.storyboard in Resources */,
 				04BE48571F962800001A9CD0 /* Assets.xcassets in Resources */,
-				04BE48551F962800001A9CD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +498,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BE48521F962800001A9CD0 /* ViewController.m in Sources */,
 				04BE485D1F962800001A9CD0 /* main.m in Sources */,
-				04BE484F1F962800001A9CD0 /* AppDelegate.m in Sources */,
+				04BE48A31F962ADC001A9CD0 /* HHTabBarCtl.m in Sources */,
+				04BE48A01F962AC0001A9CD0 /* HHNavCtl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +536,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04BE48531F962800001A9CD0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04BE48541F962800001A9CD0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04BE48581F962800001A9CD0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,6 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
 				INFOPLIST_FILE = HHGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = colin.com.HHGame;
@@ -444,6 +670,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
 				INFOPLIST_FILE = HHGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = colin.com.HHGame;
