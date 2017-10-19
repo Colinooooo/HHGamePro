@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040C5E851F98725E004CD1BF /* HHInformationCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E841F98725E004CD1BF /* HHInformationCtl.m */; };
+		040C5E881F98726F004CD1BF /* HHGuessCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E871F98726F004CD1BF /* HHGuessCtl.m */; };
+		040C5E8B1F98727F004CD1BF /* HHAroundLeCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E8A1F98727F004CD1BF /* HHAroundLeCtl.m */; };
+		040C5E8E1F98728D004CD1BF /* HHFoundCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E8D1F98728D004CD1BF /* HHFoundCtl.m */; };
+		040C5E911F98729E004CD1BF /* HHPersonalCenterCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E901F98729E004CD1BF /* HHPersonalCenterCtl.m */; };
+		040C5E951F987693004CD1BF /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E941F987693004CD1BF /* HHAppDelegate.m */; };
 		04BE48571F962800001A9CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE48561F962800001A9CD0 /* Assets.xcassets */; };
-		04BE485A1F962800001A9CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE48581F962800001A9CD0 /* LaunchScreen.storyboard */; };
 		04BE485D1F962800001A9CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE485C1F962800001A9CD0 /* main.m */; };
 		04BE48671F962800001A9CD0 /* HHGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE48661F962800001A9CD0 /* HHGameTests.m */; };
 		04BE48721F962800001A9CD0 /* HHGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE48711F962800001A9CD0 /* HHGameUITests.m */; };
@@ -35,9 +40,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040C5E431F98335E004CD1BF /* HHMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMacro.h; sourceTree = "<group>"; };
+		040C5E511F9868DB004CD1BF /* HHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPrefixHeader.pch; sourceTree = "<group>"; };
+		040C5E521F986955004CD1BF /* UIBarButtonItem+CHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CHExtension.m"; sourceTree = "<group>"; };
+		040C5E531F986955004CD1BF /* KBDeleteLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBDeleteLine.h; sourceTree = "<group>"; };
+		040C5E541F986955004CD1BF /* NSDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		040C5E551F986955004CD1BF /* UILabel+CHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+CHExtension.h"; sourceTree = "<group>"; };
+		040C5E561F986955004CD1BF /* UIBarButtonItem+CHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CHExtension.h"; sourceTree = "<group>"; };
+		040C5E571F986956004CD1BF /* UIScrollView+KBEmptyDataSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KBEmptyDataSet.h"; sourceTree = "<group>"; };
+		040C5E581F986956004CD1BF /* NSString+CHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CHExtension.m"; sourceTree = "<group>"; };
+		040C5E591F986956004CD1BF /* UIButton+CHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CHExtension.h"; sourceTree = "<group>"; };
+		040C5E5C1F986956004CD1BF /* UIButton+Delay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		040C5E5D1F986956004CD1BF /* UIButton+Delay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
+		040C5E5E1F986956004CD1BF /* UIButton+touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		040C5E5F1F986956004CD1BF /* UIButton+touch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
+		040C5E601F986956004CD1BF /* UIScrollView+KBRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KBRefresh.h"; sourceTree = "<group>"; };
+		040C5E611F986957004CD1BF /* UIScrollView+KBRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KBRefresh.m"; sourceTree = "<group>"; };
+		040C5E621F986957004CD1BF /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		040C5E631F986957004CD1BF /* UIView+CHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CHExtension.m"; sourceTree = "<group>"; };
+		040C5E641F986957004CD1BF /* NSString+CHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CHExtension.h"; sourceTree = "<group>"; };
+		040C5E651F986957004CD1BF /* UIScrollView+KBEmptyDataSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KBEmptyDataSet.m"; sourceTree = "<group>"; };
+		040C5E661F986957004CD1BF /* UIImageView+KBImgViewBgColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KBImgViewBgColor.h"; sourceTree = "<group>"; };
+		040C5E671F986957004CD1BF /* UITextField+CHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+CHExtension.h"; sourceTree = "<group>"; };
+		040C5E681F986957004CD1BF /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		040C5E691F986957004CD1BF /* UITextField+CHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CHExtension.m"; sourceTree = "<group>"; };
+		040C5E6A1F986957004CD1BF /* UIImage+DDNAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DDNAdditions.h"; sourceTree = "<group>"; };
+		040C5E6B1F986957004CD1BF /* UIView+CHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CHExtension.h"; sourceTree = "<group>"; };
+		040C5E6C1F986958004CD1BF /* UIImage+DDNAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DDNAdditions.m"; sourceTree = "<group>"; };
+		040C5E6D1F986958004CD1BF /* UIButton+CHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CHExtension.m"; sourceTree = "<group>"; };
+		040C5E6E1F986958004CD1BF /* UIImageView+KBImgViewBgColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KBImgViewBgColor.m"; sourceTree = "<group>"; };
+		040C5E6F1F986958004CD1BF /* UILabel+TextHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TextHeight.m"; sourceTree = "<group>"; };
+		040C5E701F986958004CD1BF /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		040C5E711F986959004CD1BF /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		040C5E721F986959004CD1BF /* UILabel+TextHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+TextHeight.h"; sourceTree = "<group>"; };
+		040C5E731F986959004CD1BF /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		040C5E751F986959004CD1BF /* IndexAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexAnimation.h; sourceTree = "<group>"; };
+		040C5E761F986959004CD1BF /* IndexAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexAnimation.m; sourceTree = "<group>"; };
+		040C5E771F986959004CD1BF /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		040C5E781F98695A004CD1BF /* KBDeleteLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBDeleteLine.m; sourceTree = "<group>"; };
+		040C5E7A1F98695A004CD1BF /* BRPlaceholderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPlaceholderTextView.h; sourceTree = "<group>"; };
+		040C5E7B1F98695A004CD1BF /* BRPlaceholderTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPlaceholderTextView.m; sourceTree = "<group>"; };
+		040C5E7D1F98695A004CD1BF /* NSDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		040C5E7E1F98695B004CD1BF /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		040C5E7F1F98695B004CD1BF /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		040C5E801F98695B004CD1BF /* UILabel+CHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CHExtension.m"; sourceTree = "<group>"; };
+		040C5E831F98725E004CD1BF /* HHInformationCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHInformationCtl.h; sourceTree = "<group>"; };
+		040C5E841F98725E004CD1BF /* HHInformationCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHInformationCtl.m; sourceTree = "<group>"; };
+		040C5E861F98726F004CD1BF /* HHGuessCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHGuessCtl.h; sourceTree = "<group>"; };
+		040C5E871F98726F004CD1BF /* HHGuessCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHGuessCtl.m; sourceTree = "<group>"; };
+		040C5E891F98727F004CD1BF /* HHAroundLeCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAroundLeCtl.h; sourceTree = "<group>"; };
+		040C5E8A1F98727F004CD1BF /* HHAroundLeCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAroundLeCtl.m; sourceTree = "<group>"; };
+		040C5E8C1F98728D004CD1BF /* HHFoundCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFoundCtl.h; sourceTree = "<group>"; };
+		040C5E8D1F98728D004CD1BF /* HHFoundCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFoundCtl.m; sourceTree = "<group>"; };
+		040C5E8F1F98729E004CD1BF /* HHPersonalCenterCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPersonalCenterCtl.h; sourceTree = "<group>"; };
+		040C5E901F98729E004CD1BF /* HHPersonalCenterCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPersonalCenterCtl.m; sourceTree = "<group>"; };
+		040C5E931F987693004CD1BF /* HHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		040C5E941F987693004CD1BF /* HHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		040C5E991F9879AD004CD1BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BE484A1F962800001A9CD0 /* HHGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE48561F962800001A9CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04BE48591F962800001A9CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BE485B1F962800001A9CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BE485C1F962800001A9CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BE48621F962800001A9CD0 /* HHGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,8 +107,6 @@
 		04BE486D1F962800001A9CD0 /* HHGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE48711F962800001A9CD0 /* HHGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHGameUITests.m; sourceTree = "<group>"; };
 		04BE48731F962800001A9CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04BE489C1F962A62001A9CD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04BE489D1F962A62001A9CD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04BE489E1F962AC0001A9CD0 /* HHNavCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavCtl.h; sourceTree = "<group>"; };
 		04BE489F1F962AC0001A9CD0 /* HHNavCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHNavCtl.m; sourceTree = "<group>"; };
 		04BE48A11F962ADC001A9CD0 /* HHTabBarCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTabBarCtl.h; sourceTree = "<group>"; };
@@ -83,6 +142,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040C5E5B1F986956004CD1BF /* UIButton-touch */ = {
+			isa = PBXGroup;
+			children = (
+				040C5E5C1F986956004CD1BF /* UIButton+Delay.h */,
+				040C5E5D1F986956004CD1BF /* UIButton+Delay.m */,
+				040C5E5E1F986956004CD1BF /* UIButton+touch.h */,
+				040C5E5F1F986956004CD1BF /* UIButton+touch.m */,
+			);
+			path = "UIButton-touch";
+			sourceTree = "<group>";
+		};
+		040C5E741F986959004CD1BF /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				040C5E751F986959004CD1BF /* IndexAnimation.h */,
+				040C5E761F986959004CD1BF /* IndexAnimation.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		040C5E791F98695A004CD1BF /* PlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				040C5E7A1F98695A004CD1BF /* BRPlaceholderTextView.h */,
+				040C5E7B1F98695A004CD1BF /* BRPlaceholderTextView.m */,
+			);
+			path = PlaceholderTextView;
+			sourceTree = "<group>";
+		};
 		04BE48411F962800001A9CD0 = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +204,10 @@
 				04BE48931F9629D5001A9CD0 /* Main */,
 				04BE48981F9629D9001A9CD0 /* Tools */,
 				04BE48561F962800001A9CD0 /* Assets.xcassets */,
-				04BE48581F962800001A9CD0 /* LaunchScreen.storyboard */,
+				040C5E991F9879AD004CD1BF /* LaunchScreen.storyboard */,
 				04BE485B1F962800001A9CD0 /* Info.plist */,
 				04BE485C1F962800001A9CD0 /* main.m */,
+				040C5E511F9868DB004CD1BF /* HHPrefixHeader.pch */,
 			);
 			path = HHGame;
 			sourceTree = "<group>";
@@ -168,6 +257,8 @@
 		04BE48821F9629B7001A9CD0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E831F98725E004CD1BF /* HHInformationCtl.h */,
+				040C5E841F98725E004CD1BF /* HHInformationCtl.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -199,6 +290,8 @@
 		04BE48861F9629BE001A9CD0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E861F98726F004CD1BF /* HHGuessCtl.h */,
+				040C5E871F98726F004CD1BF /* HHGuessCtl.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -230,6 +323,8 @@
 		04BE488A1F9629C6001A9CD0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E891F98727F004CD1BF /* HHAroundLeCtl.h */,
+				040C5E8A1F98727F004CD1BF /* HHAroundLeCtl.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -261,6 +356,8 @@
 		04BE488E1F9629CA001A9CD0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E8C1F98728D004CD1BF /* HHFoundCtl.h */,
+				040C5E8D1F98728D004CD1BF /* HHFoundCtl.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -292,6 +389,8 @@
 		04BE48921F9629D0001A9CD0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E8F1F98729E004CD1BF /* HHPersonalCenterCtl.h */,
+				040C5E901F98729E004CD1BF /* HHPersonalCenterCtl.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -310,8 +409,8 @@
 		04BE48941F9629D5001A9CD0 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				04BE489D1F962A62001A9CD0 /* AppDelegate.h */,
-				04BE489C1F962A62001A9CD0 /* AppDelegate.m */,
+				040C5E931F987693004CD1BF /* HHAppDelegate.h */,
+				040C5E941F987693004CD1BF /* HHAppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -337,6 +436,7 @@
 		04BE48971F9629D5001A9CD0 /* MacroDefinition */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E431F98335E004CD1BF /* HHMacro.h */,
 			);
 			path = MacroDefinition;
 			sourceTree = "<group>";
@@ -354,6 +454,43 @@
 		04BE48991F9629D9001A9CD0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				040C5E531F986955004CD1BF /* KBDeleteLine.h */,
+				040C5E781F98695A004CD1BF /* KBDeleteLine.m */,
+				040C5E541F986955004CD1BF /* NSDictionary+Extension.h */,
+				040C5E7D1F98695A004CD1BF /* NSDictionary+Extension.m */,
+				040C5E641F986957004CD1BF /* NSString+CHExtension.h */,
+				040C5E581F986956004CD1BF /* NSString+CHExtension.m */,
+				040C5E731F986959004CD1BF /* NSString+Size.h */,
+				040C5E621F986957004CD1BF /* NSString+Size.m */,
+				040C5E791F98695A004CD1BF /* PlaceholderTextView */,
+				040C5E561F986955004CD1BF /* UIBarButtonItem+CHExtension.h */,
+				040C5E521F986955004CD1BF /* UIBarButtonItem+CHExtension.m */,
+				040C5E5B1F986956004CD1BF /* UIButton-touch */,
+				040C5E591F986956004CD1BF /* UIButton+CHExtension.h */,
+				040C5E6D1F986958004CD1BF /* UIButton+CHExtension.m */,
+				040C5E7E1F98695B004CD1BF /* UIButton+ImageTitleSpacing.h */,
+				040C5E7F1F98695B004CD1BF /* UIButton+ImageTitleSpacing.m */,
+				040C5E6A1F986957004CD1BF /* UIImage+DDNAdditions.h */,
+				040C5E6C1F986958004CD1BF /* UIImage+DDNAdditions.m */,
+				040C5E661F986957004CD1BF /* UIImageView+KBImgViewBgColor.h */,
+				040C5E6E1F986958004CD1BF /* UIImageView+KBImgViewBgColor.m */,
+				040C5E551F986955004CD1BF /* UILabel+CHExtension.h */,
+				040C5E801F98695B004CD1BF /* UILabel+CHExtension.m */,
+				040C5E721F986959004CD1BF /* UILabel+TextHeight.h */,
+				040C5E6F1F986958004CD1BF /* UILabel+TextHeight.m */,
+				040C5E711F986959004CD1BF /* UINavigationBar+Awesome.h */,
+				040C5E681F986957004CD1BF /* UINavigationBar+Awesome.m */,
+				040C5E571F986956004CD1BF /* UIScrollView+KBEmptyDataSet.h */,
+				040C5E651F986957004CD1BF /* UIScrollView+KBEmptyDataSet.m */,
+				040C5E601F986956004CD1BF /* UIScrollView+KBRefresh.h */,
+				040C5E611F986957004CD1BF /* UIScrollView+KBRefresh.m */,
+				040C5E671F986957004CD1BF /* UITextField+CHExtension.h */,
+				040C5E691F986957004CD1BF /* UITextField+CHExtension.m */,
+				040C5E741F986959004CD1BF /* UIView */,
+				040C5E6B1F986957004CD1BF /* UIView+CHExtension.h */,
+				040C5E631F986957004CD1BF /* UIView+CHExtension.m */,
+				040C5E771F986959004CD1BF /* UIView+Frame.h */,
+				040C5E701F986958004CD1BF /* UIView+Frame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -499,7 +636,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BE485A1F962800001A9CD0 /* LaunchScreen.storyboard in Resources */,
 				04BE48571F962800001A9CD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,9 +709,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040C5E851F98725E004CD1BF /* HHInformationCtl.m in Sources */,
 				04BE485D1F962800001A9CD0 /* main.m in Sources */,
 				04BE48A31F962ADC001A9CD0 /* HHTabBarCtl.m in Sources */,
 				04BE48A01F962AC0001A9CD0 /* HHNavCtl.m in Sources */,
+				040C5E951F987693004CD1BF /* HHAppDelegate.m in Sources */,
+				040C5E881F98726F004CD1BF /* HHGuessCtl.m in Sources */,
+				040C5E8E1F98728D004CD1BF /* HHFoundCtl.m in Sources */,
+				040C5E8B1F98727F004CD1BF /* HHAroundLeCtl.m in Sources */,
+				040C5E911F98729E004CD1BF /* HHPersonalCenterCtl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,17 +751,6 @@
 			targetProxy = 04BE486E1F962800001A9CD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04BE48581F962800001A9CD0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04BE48591F962800001A9CD0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04BE48741F962800001A9CD0 /* Debug */ = {
@@ -670,7 +801,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -719,7 +850,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -733,11 +864,61 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				GCC_PREFIX_HEADER = "${SRCROOT}/HHGame/HHPrefixHeader.pch";
 				INFOPLIST_FILE = HHGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JGProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"RTRootNavigationController\"",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SIAlertView\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YZDisplayViewController\"",
+					"-framework",
+					"\"ZLPhotoBrowser\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = colin.com.HHGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -748,11 +929,61 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				GCC_PREFIX_HEADER = "${SRCROOT}/HHGame/HHPrefixHeader.pch";
 				INFOPLIST_FILE = HHGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JGProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"RTRootNavigationController\"",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SIAlertView\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YZDisplayViewController\"",
+					"-framework",
+					"\"ZLPhotoBrowser\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = colin.com.HHGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
